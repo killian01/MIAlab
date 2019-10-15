@@ -1,0 +1,12 @@
+1) Effect of tree depth
+The more the number of depths is increased the more the percentage of accuracy increases for the trainng/test.
+The more you increase the depth, the more you obtain a sequence of lines to differentiate the 2 classes of points.
+	
+2) Effect of the number of trees
+The number of trees seems to enlarge the shade area on the line that differentiates the 2 classes of points. It doesn't seem to influenze the accuracy alone but with an higher depth we obtain a better curve for the discrimination and a better accuracy. 
+		
+
+3) Parameter tuning
+A depth of 10 seems to be a good choice. For a fixed tree value of 50 and a depth of 10, the accuracy of 100% and 95% is obtained for training and testing.
+If the depth is increased to 15 or decreased to 5, the accuracy obtained is smaller. 
+The number of trees was set at 50 because it is at this value that the accuracy of the training was closest to 100% at each test but the differences are small with smaller values (40.30) or larger ones (60.70). The limit values seem to me to be at these values.

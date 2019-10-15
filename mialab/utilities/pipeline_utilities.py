@@ -67,21 +67,27 @@ class FeatureExtractor:
         Returns:
             structure.BrainImage: The image with extracted features.
         """
-        # todo: add T2w features
-        warnings.warn('No features from T2-weighted image extracted.')
+        # todo: add T2w features (Add T2w to the "self" below)
+        # warnings.warn('No features from T2-weighted image extracted.')
 
         if self.coordinates_feature:
             atlas_coordinates = fltr_feat.AtlasCoordinates()
             self.img.feature_images[FeatureImageTypes.ATLAS_COORD] = \
                 atlas_coordinates.execute(self.img.images[structure.BrainImageTypes.T1w])
+            # Don't need for Atlas (t1 and t2 already aligned)
+            self.img.feature_images[FeatureImageTypes.ATLAS_COORD] =\
+                atlas_coordinates.execute(self.img.images[structure.BrainImageTypes.T2w])
 
         if self.intensity_feature:
             self.img.feature_images[FeatureImageTypes.T1w_INTENSITY] = self.img.images[structure.BrainImageTypes.T1w]
+            self.img.feature_images[FeatureImageTypes.T2w_INTENSITY] = self.img.images[structure.BrainImageTypes.T2w]
 
         if self.gradient_intensity_feature:
             # compute gradient magnitude images
             self.img.feature_images[FeatureImageTypes.T1w_GRADIENT_INTENSITY] = \
                 sitk.GradientMagnitude(self.img.images[structure.BrainImageTypes.T1w])
+            self.img.feature_images[FeatureImageTypes.T2w_GRADIENT_INTENSITY] = \
+                sitk.GradientMagnitude(self.img.images[structure.BrainImageTypes.T2w])
 
         self._generate_feature_matrix()
 
@@ -300,9 +306,10 @@ def init_evaluator(directory: str, result_file_name: str = 'results.csv') -> eva
     evaluator.add_label(3, 'Hippocampus')
     evaluator.add_label(4, 'Amygdala')
     evaluator.add_label(5, 'Thalamus')
-    evaluator.metrics = [metric.DiceCoefficient()]
+    evaluator.metrics = [metric.DiceCoefficient(), metric.HausdorffDistance(95)]  # Solutions
     # todo: add hausdorff distance, 95th percentile (see metric.HausdorffDistance)
-    warnings.warn('Initialized evaluation with the Dice coefficient. Do you know other suitable metrics?')
+    # evaluator.add_metric(metric.HausdorffDistance(95))
+    # warnings.warn('Initialized evaluation with the Dice coefficient. Do you know other suitable metrics?')
     return evaluator
 
 
