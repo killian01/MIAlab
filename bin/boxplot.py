@@ -9,6 +9,7 @@ def main():
     # todo: read the data into a list
     # todo: plot the Dice coefficients per label
     #  (i.e. white matter, gray matter, hippocampus, amygdala, thalamus) in a boxplot
+    # TEST GIT PUSH+COMMIT
     wdpath= os.getcwd()
     print(wdpath)
     results_file = []
