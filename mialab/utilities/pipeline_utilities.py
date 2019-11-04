@@ -3,6 +3,7 @@ import enum
 import os
 import typing as t
 import warnings
+from builtins import print
 
 import numpy as np
 import pymia.data.conversion as conversion
@@ -10,6 +11,8 @@ import pymia.filtering.filter as fltr
 import pymia.evaluation.evaluator as eval_
 import pymia.evaluation.metric as metric
 import SimpleITK as sitk
+from numpy.distutils.system_info import gtkp_2_info
+from numpy.testing._private.parameterized import param
 
 import mialab.data.structure as structure
 import mialab.filtering.feature_extraction as fltr_feat
@@ -34,6 +37,140 @@ def load_atlas_images(directory: str):
     atlas_t2 = sitk.ReadImage(os.path.join(directory, 'mni_icbm152_t2_tal_nlin_sym_09a.nii.gz'))
     if not conversion.ImageProperties(atlas_t1) == conversion.ImageProperties(atlas_t2):
         raise ValueError('T1w and T2w atlas images have not the same image properties')
+
+
+def load_atlas_custom_images(wdpath):
+    # params_list = list(data_batch.items())
+    # print(params_list[0] )
+    t1w_list = []
+    t2w_list = []
+    gt_label_list = []
+    brain_mask_list = []
+    transform_list = []
+
+    #Load the train labels_native with their transform
+    for dirpath, subdirs, files in os.walk(wdpath):
+        # print("dirpath", dirpath)
+        # print("subdirs", subdirs)
+        # print("files", files)
+        for x in files:
+            if x.endswith("T1native.nii.gz"):
+                t1w_list.append(sitk.ReadImage(os.path.join(dirpath, x)))
+            elif x.endswith("T2native.nii.gz"):
+                t2w_list.append(sitk.ReadImage(os.path.join(dirpath, x)))
+            elif x.endswith("labels_native.nii.gz"):
+                gt_label_list.append(sitk.ReadImage(os.path.join(dirpath, x)))
+            elif x.endswith("Brainmasknative.nii.gz"):
+                brain_mask_list.append(sitk.ReadImage(os.path.join(dirpath, x)))
+            elif x.endswith("affine.txt"):
+                transform_list.append(sitk.ReadTransform(os.path.join(dirpath, x)))
+            # else:
+            #     print("Problem in CustomAtlas in folder", dirpath)
+
+
+    #Resample and thershold to get the label
+    white_matter_list = []
+    grey_matter_list = []
+    hippocampus_list = []
+    amygdala_list = []
+    thalamus_list = []
+    for i in range(0, len(gt_label_list)):
+        resample_img = sitk.Resample(gt_label_list[i],
+                                     transform_list[i],
+                                     sitk.sitkNearestNeighbor, 0, gt_label_list[i].GetPixelIDValue())
+        white_matter_list.append(sitk.Threshold(resample_img, 1, 1, 0))
+        grey_matter_list.append(sitk.Threshold(resample_img, 2, 2, 0))
+        hippocampus_list.append(sitk.Threshold(resample_img, 3, 3, 0))
+        amygdala_list.append(sitk.Threshold(resample_img, 4, 4, 0))
+        thalamus_list.append(sitk.Threshold(resample_img, 5, 5, 0))
+
+    # sum them up and divide by their number of images to make a probability map
+    white_matter_map = 0
+    grey_matter_map = 0
+    hippocampus_map = 0
+    amygdala_map = 0
+    thalamus_map = 0
+    for i in range(1, len(gt_label_list)):
+        white_matter_map = sitk.Add(white_matter_map, white_matter_list[i])
+        grey_matter_map = sitk.Add(grey_matter_map, grey_matter_list[i])
+        hippocampus_map = sitk.Add(hippocampus_map, hippocampus_list[i])
+        amygdala_map = sitk.Add(amygdala_map, amygdala_list[i])
+        thalamus_map = sitk.Add(thalamus_map, thalamus_list[i])
+
+    white_matter_map = sitk.Divide(white_matter_map, len(white_matter_list))
+    grey_matter_map = sitk.Divide(grey_matter_map, len(grey_matter_list))
+    hippocampus_map = sitk.Divide(hippocampus_map, len(hippocampus_list))
+    amygdala_map = sitk.Divide(amygdala_map, len(amygdala_list))
+    thalamus_map = sitk.Divide(thalamus_map, len(thalamus_list))
+    #atlas = sitk.Divide(sum_images, len(test_resample))
+    #slice = sitk.GetArrayFromImage(atlas)[90,:,:]
+    #plt.imshow(slice)
+
+    #Threhold the 5 different maps to get a binary map
+    white_matter_map = sitk.BinaryThreshold(white_matter_map, 0.5, 5, 1, 0)
+    grey_matter_map = sitk.BinaryThreshold(grey_matter_map, 1, 5, 2, 0)
+    hippocampus_map = sitk.BinaryThreshold(hippocampus_map, 1, 5, 3, 0)
+    amygdala_map = sitk.BinaryThreshold(amygdala_map, 1, 5, 4, 0)
+    thalamus_map = sitk.BinaryThreshold(thalamus_map, 1, 5, 5, 0)
+
+    #Save the images
+    path_to_save = '../bin/custom_atlas_result/'
+    if not os.path.exists(path_to_save):
+        os.makedirs(path_to_save)
+    sitk.WriteImage(grey_matter_map, os.path.join(path_to_save, 'grey_matter_map.nii'), False)
+    sitk.WriteImage(white_matter_map,  os.path.join(path_to_save, 'white_matter_map.nii'), False)
+    sitk.WriteImage(hippocampus_map,  os.path.join(path_to_save, 'hippocampus_map.nii'), False)
+    sitk.WriteImage(amygdala_map,  os.path.join(path_to_save, 'amygdala_map.nii'), False)
+    sitk.WriteImage(thalamus_map,  os.path.join(path_to_save, 'thalamus_map.nii'), False)
+
+    # Load the test labels_native and their transform
+    path_to_test = '../data/test'
+    test_gt_label_list = []
+    test_transform_list = []
+
+    for dirpath, subdirs, files in os.walk(path_to_test):
+        for x in files:
+            if x.endswith("labels_native.nii.gz"):
+                test_gt_label_list.append(sitk.ReadImage(os.path.join(dirpath, x)))
+            if x.endswith("affine.txt"):
+                test_transform_list.append(sitk.ReadTransform(os.path.join(dirpath, x)))
+
+    #Resample the labels_native with the transform
+    test_resample_img = []
+    for i in range(0, len(test_gt_label_list)):
+        resample_img = sitk.Resample(test_gt_label_list[i],
+                                     test_transform_list[i],
+                                     sitk.sitkNearestNeighbor)
+        test_resample_img.append(resample_img)
+
+    # Save the first test patient labels
+    # path_to_save = '../bin/temp_test_result/'
+    # if not os.path.exists(path_to_save):
+    #     os.makedirs(path_to_save)
+    # sitk.WriteImage(test_resample_img[0], os.path.join(path_to_save, 'FirstPatienFromTestList.nii'), False)
+
+    #Compute the dice coeefficent (and the Hausdorff distance)
+    label_list = ['White Matter', 'Grey Matter', 'Hippocampus', 'Amygdala', 'Thalamus']
+    map_list = [white_matter_map, grey_matter_map, hippocampus_map, amygdala_map, thalamus_map]
+    dice_list = []
+
+    path_to_save = '../bin/DiceTestResult/'
+    if not os.path.exists(path_to_save):
+        os.makedirs(path_to_save)
+    for i in range(0, 5):
+        evaluator = eval_.Evaluator(eval_.ConsoleEvaluatorWriter(5))
+        evaluator.metrics = [metric.DiceCoefficient()]
+        evaluator.add_writer(eval_.CSVEvaluatorWriter(os.path.join(path_to_save,
+                                                                   'DiceResults_' + label_list[i] + '.csv')))
+        evaluator.add_label(i+1, label_list[i])
+        for j in range(0, len(test_resample_img)):
+            evaluator.evaluate(test_resample_img[j], map_list[i], 'Patient ' + str(j))
+
+
+
+
+
+    print("END Custom loadAtlas")
 
 
 class FeatureImageTypes(enum.Enum):
@@ -75,7 +212,7 @@ class FeatureExtractor:
             self.img.feature_images[FeatureImageTypes.ATLAS_COORD] = \
                 atlas_coordinates.execute(self.img.images[structure.BrainImageTypes.T1w])
             # Don't need for Atlas (t1 and t2 already aligned)
-            self.img.feature_images[FeatureImageTypes.ATLAS_COORD] =\
+            self.img.feature_images[FeatureImageTypes.ATLAS_COORD] = \
                 atlas_coordinates.execute(self.img.images[structure.BrainImageTypes.T2w])
 
         if self.intensity_feature:
@@ -197,7 +334,7 @@ def pre_process(id_: str, paths: dict, **kwargs) -> structure.BrainImage:
     if kwargs.get('registration_pre', False):
         pipeline_brain_mask.add_filter(fltr_prep.ImageRegistration())
         pipeline_brain_mask.set_param(fltr_prep.ImageRegistrationParameters(atlas_t1, img.transformation, True),
-                              len(pipeline_brain_mask.filters) - 1)
+                                      len(pipeline_brain_mask.filters) - 1)
 
     # execute pipeline on the brain mask image
     img.images[structure.BrainImageTypes.BrainMask] = pipeline_brain_mask.execute(
@@ -314,7 +451,7 @@ def init_evaluator(directory: str, result_file_name: str = 'results.csv') -> eva
 
 
 def pre_process_batch(data_batch: t.Dict[structure.BrainImageTypes, structure.BrainImage],
-                      pre_process_params: dict=None, multi_process=True) -> t.List[structure.BrainImage]:
+                      pre_process_params: dict = None, multi_process=True) -> t.List[structure.BrainImage]:
     """Loads and pre-processes a batch of images.
 
     The pre-processing includes:
@@ -335,6 +472,7 @@ def pre_process_batch(data_batch: t.Dict[structure.BrainImageTypes, structure.Br
         pre_process_params = {}
 
     params_list = list(data_batch.items())
+
     if multi_process:
         images = mproc.MultiProcessor.run(pre_process, params_list, pre_process_params, mproc.PreProcessingPickleHelper)
     else:
@@ -343,7 +481,7 @@ def pre_process_batch(data_batch: t.Dict[structure.BrainImageTypes, structure.Br
 
 
 def post_process_batch(brain_images: t.List[structure.BrainImage], segmentations: t.List[sitk.Image],
-                       probabilities: t.List[sitk.Image], post_process_params: dict=None,
+                       probabilities: t.List[sitk.Image], post_process_params: dict = None,
                        multi_process=True) -> t.List[sitk.Image]:
     """ Post-processes a batch of images.
 
