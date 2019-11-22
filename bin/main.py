@@ -54,7 +54,6 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
 
     # load atlas images
     putil.load_atlas_images(data_atlas_dir)
-    atlas_creation()
 
     print('-' * 5, 'Training...')
 
@@ -63,9 +62,9 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
                                          LOADING_KEYS,
                                          futil.BrainImageFilePathGenerator(),
                                          futil.DataDirectoryFilter())
-    pre_process_params = {'skullstrip_pre': True,
+    pre_process_params = {'skullstrip_pre': False,
                           'normalization_pre': True,
-                          'registration_pre': True,
+                          'registration_pre': False,
                           'coordinates_feature': True,
                           'intensity_feature': True,
                           'gradient_intensity_feature': True}
@@ -80,7 +79,6 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
     # generate feature matrix and label vector
     data_train = np.concatenate([img.feature_matrix[0] for img in images])
     labels_train = np.concatenate([img.feature_matrix[1] for img in images]).squeeze()
-
 
     # warnings.warn('Random forest parameters not properly set.')
     # we modified the number of decision trees in the forest to be 20 and the maximum tree depth to be 25
@@ -103,7 +101,7 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
     # initialize evaluator
     evaluator = putil.init_evaluator(result_dir)
 
-    # crawl the training image directories
+    # crawl the testing image directories
     crawler = load.FileSystemDataCrawler(data_test_dir,
                                          LOADING_KEYS,
                                          futil.BrainImageFilePathGenerator(),

@@ -145,6 +145,7 @@ class ImageRegistration(pymia_fltr.IFilter):
             # Solution : forgot the , 0.0, image.GetPixelIDValue())
             image = sitk.Resample(image, atlas, transform, sitk.sitkLinear, 0.0,
                                   image.GetPixelIDValue())
+        print("REGISTRATION DONE")
 
         # note: if you are interested in registration, and want to test it, have a look at
         # pymia.filtering.registration.MultiModalRegistration. Think about the type of registration, i.e.
