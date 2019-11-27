@@ -181,6 +181,7 @@ class FeatureImageTypes(enum.Enum):
     T1w_GRADIENT_INTENSITY = 3
     T2w_INTENSITY = 4
     T2w_GRADIENT_INTENSITY = 5
+    Atlas_Grey_matter = 6
 
 
 class FeatureExtractor:
@@ -197,6 +198,11 @@ class FeatureExtractor:
         self.coordinates_feature = kwargs.get('coordinates_feature', False)
         self.intensity_feature = kwargs.get('intensity_feature', False)
         self.gradient_intensity_feature = kwargs.get('gradient_intensity_feature', False)
+        #self.atlas_feature_grey_matter = kwarg.get('atlas_feature_grey_matter', true)
+        #self.atlas_feature_white_matter = kwarg.get('atlas_feature_white_matter', true)
+        #self.atlas_feature_thalamus = kwarg.get('atlas_feature_thalamus', true)
+        #self.atlas_feature_amygdala = kwarg.get('atlas_feature_amygdala', true)
+        #self.atlas_feature_hippocampus = kwarg.get('atlas_feature_hippocampus', true)
 
     def execute(self) -> structure.BrainImage:
         """Extracts features from an image.
@@ -225,6 +231,7 @@ class FeatureExtractor:
                 sitk.GradientMagnitude(self.img.images[structure.BrainImageTypes.T1w])
             self.img.feature_images[FeatureImageTypes.T2w_GRADIENT_INTENSITY] = \
                 sitk.GradientMagnitude(self.img.images[structure.BrainImageTypes.T2w])
+
 
         self._generate_feature_matrix()
 
