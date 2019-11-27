@@ -20,6 +20,7 @@ import mialab.filtering.postprocessing as fltr_postp
 import mialab.filtering.preprocessing as fltr_prep
 import mialab.utilities.multi_processor as mproc
 
+
 atlas_t1 = sitk.Image()
 atlas_t2 = sitk.Image()
 
@@ -37,6 +38,8 @@ def load_atlas_images(directory: str):
     atlas_t2 = sitk.ReadImage(os.path.join(directory, 'mni_icbm152_t2_tal_nlin_sym_09a.nii.gz'))
     if not conversion.ImageProperties(atlas_t1) == conversion.ImageProperties(atlas_t2):
         raise ValueError('T1w and T2w atlas images have not the same image properties')
+
+
 
 
 def load_atlas_custom_images(wdpath):
@@ -181,7 +184,12 @@ class FeatureImageTypes(enum.Enum):
     T1w_GRADIENT_INTENSITY = 3
     T2w_INTENSITY = 4
     T2w_GRADIENT_INTENSITY = 5
+
     Atlas_Grey_matter = 6
+    Atlas_White_matter = 7
+    Atlas_Thalamus = 8
+    Atlas_Amygdala = 9
+    Atlas_Hippocampus = 10
 
 
 class FeatureExtractor:
@@ -196,13 +204,14 @@ class FeatureExtractor:
         self.img = img
         self.training = kwargs.get('training', True)
         self.coordinates_feature = kwargs.get('coordinates_feature', False)
-        self.intensity_feature = kwargs.get('intensity_feature', False)
-        self.gradient_intensity_feature = kwargs.get('gradient_intensity_feature', False)
-        #self.atlas_feature_grey_matter = kwarg.get('atlas_feature_grey_matter', true)
-        #self.atlas_feature_white_matter = kwarg.get('atlas_feature_white_matter', true)
-        #self.atlas_feature_thalamus = kwarg.get('atlas_feature_thalamus', true)
-        #self.atlas_feature_amygdala = kwarg.get('atlas_feature_amygdala', true)
-        #self.atlas_feature_hippocampus = kwarg.get('atlas_feature_hippocampus', true)
+        self.intensity_feature = kwargs.get('intensity_feature', True)
+        self.gradient_intensity_feature = kwargs.get('gradient_intensity_feature', True)
+
+        self.atlas_feature_grey_matter = kwargs.get('atlas_feature_grey_matter', True)
+        self.atlas_feature_white_matter = kwargs.get('atlas_feature_white_matter', True)
+        self.atlas_feature_thalamus = kwargs.get('atlas_feature_thalamus', True)
+        self.atlas_feature_amygdala = kwargs.get('atlas_feature_amygdala', True)
+        self.atlas_feature_hippocampus = kwargs.get('atlas_feature_hippocampus', True)
 
     def execute(self) -> structure.BrainImage:
         """Extracts features from an image.
@@ -232,8 +241,20 @@ class FeatureExtractor:
             self.img.feature_images[FeatureImageTypes.T2w_GRADIENT_INTENSITY] = \
                 sitk.GradientMagnitude(self.img.images[structure.BrainImageTypes.T2w])
 
+        #Atlas features
+        if self.atlas_feature_grey_matter:
+            self.img.feature_images[FeatureImageTypes.Atlas_Grey_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/grey_matter_map_no_threshold.nii')
+        if self.atlas_feature_white_matter:
+           self.img.feature_images[FeatureImageTypes.Atlas_White_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/white_matter_map_no_threshold.nii')
+        if self.atlas_feature_thalamus:
+            self.img.feature_images[FeatureImageTypes.Atlas_Thalamus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/thalamus_map_no_threshold.nii')
+        if self.atlas_feature_amygdala:
+            self.img.feature_images[FeatureImageTypes.Atlas_Amygdala] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/amygdala_map_no_threshold.nii')
+        if self.atlas_feature_hippocampus:
+            self.img.feature_images[FeatureImageTypes.Atlas_Hippocampus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/hippocampus_map_no_threshold.nii')
 
         self._generate_feature_matrix()
+
 
         return self.img
 
@@ -274,6 +295,10 @@ class FeatureExtractor:
         labels = self._image_as_numpy_array(self.img.images[structure.BrainImageTypes.GroundTruth], mask)
 
         self.img.feature_matrix = (data.astype(np.float32), labels.astype(np.int16))
+        #print(self.img.feature_matrix[0].shape)
+        #np.set_printoptions(threshold=np.inf)
+        #print(self.img.feature_matrix[0])
+
 
     @staticmethod
     def _image_as_numpy_array(image: sitk.Image, mask: np.ndarray = None):
