@@ -79,8 +79,11 @@ def load_atlas_custom_images(wdpath):
     thalamus_list = []
     for i in range(0, len(gt_label_list)):
         resample_img = sitk.Resample(gt_label_list[i],
+                                     atlas_t1,
                                      transform_list[i],
-                                     sitk.sitkNearestNeighbor, 0, gt_label_list[i].GetPixelIDValue())
+                                     sitk.sitkNearestNeighbor,
+                                     0,
+                                     gt_label_list[i].GetPixelIDValue())
         white_matter_list.append(sitk.Threshold(resample_img, 1, 1, 0))
         grey_matter_list.append(sitk.Threshold(resample_img, 2, 2, 0))
         hippocampus_list.append(sitk.Threshold(resample_img, 3, 3, 0))
@@ -109,6 +112,16 @@ def load_atlas_custom_images(wdpath):
     #slice = sitk.GetArrayFromImage(atlas)[90,:,:]
     #plt.imshow(slice)
 
+    #Register without threshold
+    path_to_save = '../bin/custom_atlas_result/'
+    if not os.path.exists(path_to_save):
+        os.makedirs(path_to_save)
+    sitk.WriteImage(grey_matter_map, os.path.join(path_to_save, 'grey_matter_map_no_threshold.nii'), True)
+    sitk.WriteImage(white_matter_map,  os.path.join(path_to_save, 'white_matter_map_no_threshold.nii'), True)
+    sitk.WriteImage(hippocampus_map,  os.path.join(path_to_save, 'hippocampus_map_no_threshold.nii'), True)
+    sitk.WriteImage(amygdala_map,  os.path.join(path_to_save, 'amygdala_map_no_threshold.nii'), True)
+    sitk.WriteImage(thalamus_map,  os.path.join(path_to_save, 'thalamus_map_no_threshold.nii'), True)
+
     #Threhold the 5 different maps to get a binary map
     white_matter_map = sitk.BinaryThreshold(white_matter_map, 0.5, 5, 1, 0)
     grey_matter_map = sitk.BinaryThreshold(grey_matter_map, 1, 5, 2, 0)
@@ -120,11 +133,11 @@ def load_atlas_custom_images(wdpath):
     path_to_save = '../bin/custom_atlas_result/'
     if not os.path.exists(path_to_save):
         os.makedirs(path_to_save)
-    sitk.WriteImage(grey_matter_map, os.path.join(path_to_save, 'grey_matter_map.nii'), False)
-    sitk.WriteImage(white_matter_map,  os.path.join(path_to_save, 'white_matter_map.nii'), False)
-    sitk.WriteImage(hippocampus_map,  os.path.join(path_to_save, 'hippocampus_map.nii'), False)
-    sitk.WriteImage(amygdala_map,  os.path.join(path_to_save, 'amygdala_map.nii'), False)
-    sitk.WriteImage(thalamus_map,  os.path.join(path_to_save, 'thalamus_map.nii'), False)
+    sitk.WriteImage(grey_matter_map, os.path.join(path_to_save, 'grey_matter_map.nii'), True)
+    sitk.WriteImage(white_matter_map,  os.path.join(path_to_save, 'white_matter_map.nii'), True)
+    sitk.WriteImage(hippocampus_map,  os.path.join(path_to_save, 'hippocampus_map.nii'), True)
+    sitk.WriteImage(amygdala_map,  os.path.join(path_to_save, 'amygdala_map.nii'), True)
+    sitk.WriteImage(thalamus_map,  os.path.join(path_to_save, 'thalamus_map.nii'), True)
 
     # Load the test labels_native and their transform
     path_to_test = '../data/test'
@@ -142,8 +155,12 @@ def load_atlas_custom_images(wdpath):
     test_resample_img = []
     for i in range(0, len(test_gt_label_list)):
         resample_img = sitk.Resample(test_gt_label_list[i],
+                                     atlas_t1,
                                      test_transform_list[i],
-                                     sitk.sitkNearestNeighbor)
+                                     sitk.sitkNearestNeighbor,
+                                     0,
+                                     test_gt_label_list[i].GetPixelIDValue())
+
         test_resample_img.append(resample_img)
 
     # Save the first test patient labels
@@ -243,15 +260,15 @@ class FeatureExtractor:
 
         #Atlas features
         if self.atlas_feature_grey_matter:
-            self.img.feature_images[FeatureImageTypes.Atlas_Grey_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/grey_matter_map_no_threshold.nii')
+            self.img.feature_images[FeatureImageTypes.Atlas_Grey_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/custom_atlas_result/grey_matter_map_no_threshold.nii')
         if self.atlas_feature_white_matter:
-           self.img.feature_images[FeatureImageTypes.Atlas_White_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/white_matter_map_no_threshold.nii')
+           self.img.feature_images[FeatureImageTypes.Atlas_White_matter] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/custom_atlas_result/white_matter_map_no_threshold.nii')
         if self.atlas_feature_thalamus:
-            self.img.feature_images[FeatureImageTypes.Atlas_Thalamus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/thalamus_map_no_threshold.nii')
+            self.img.feature_images[FeatureImageTypes.Atlas_Thalamus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/custom_atlas_result/thalamus_map_no_threshold.nii')
         if self.atlas_feature_amygdala:
-            self.img.feature_images[FeatureImageTypes.Atlas_Amygdala] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/amygdala_map_no_threshold.nii')
+            self.img.feature_images[FeatureImageTypes.Atlas_Amygdala] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/custom_atlas_result/amygdala_map_no_threshold.nii')
         if self.atlas_feature_hippocampus:
-            self.img.feature_images[FeatureImageTypes.Atlas_Hippocampus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/mia-result/Results threshold 30%/hippocampus_map_no_threshold.nii')
+            self.img.feature_images[FeatureImageTypes.Atlas_Hippocampus] = sitk.ReadImage('C:/Users/Admin/PycharmProjects/MyMIALab/bin/custom_atlas_result/hippocampus_map_no_threshold.nii')
 
         self._generate_feature_matrix()
 
@@ -295,9 +312,9 @@ class FeatureExtractor:
         labels = self._image_as_numpy_array(self.img.images[structure.BrainImageTypes.GroundTruth], mask)
 
         self.img.feature_matrix = (data.astype(np.float32), labels.astype(np.int16))
-        #print(self.img.feature_matrix[0].shape)
+        print(self.img.feature_matrix[0].shape)
         #np.set_printoptions(threshold=np.inf)
-        #print(self.img.feature_matrix[0])
+        print(self.img.feature_matrix[0])
 
 
     @staticmethod

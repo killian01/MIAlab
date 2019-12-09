@@ -176,7 +176,8 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
 
     # load atlas images
     putil.load_atlas_images(data_atlas_dir)
-    atlas_creation()
+    #atlas_creation()
+    #putil.load_atlas_custom_images(data_train_dir)
 
     print('-' * 5, 'Training...')
 
@@ -204,8 +205,8 @@ def main(result_dir: str, data_atlas_dir: str, data_train_dir: str, data_test_di
     # we modified the number of decision trees in the forest to be 20 and the maximum tree depth to be 25
     # note, however, that these settings might not be the optimal ones...
     forest = sk_ensemble.RandomForestClassifier(max_features=images[0].feature_matrix[0].shape[1],
-                                                n_estimators=20,
-                                                max_depth=25)
+                                                n_estimators=5,
+                                                max_depth=10)
 
     start_time = timeit.default_timer()
     forest.fit(data_train, labels_train)
