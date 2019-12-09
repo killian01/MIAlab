@@ -312,9 +312,9 @@ class FeatureExtractor:
         labels = self._image_as_numpy_array(self.img.images[structure.BrainImageTypes.GroundTruth], mask)
 
         self.img.feature_matrix = (data.astype(np.float32), labels.astype(np.int16))
-        print(self.img.feature_matrix[0].shape)
+        #print(self.img.feature_matrix[0].shape)
         #np.set_printoptions(threshold=np.inf)
-        print(self.img.feature_matrix[0])
+        #print(self.img.feature_matrix[0])
 
 
     @staticmethod
