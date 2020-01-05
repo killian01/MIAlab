@@ -90,6 +90,20 @@ def load_atlas_custom_images(wdpath):
         amygdala_list.append(sitk.Threshold(resample_img, 4, 4, 0))
         thalamus_list.append(sitk.Threshold(resample_img, 5, 5, 0))
 
+
+    #Save each label from first data
+    path_to_save = '../bin/custom_atlas_result/'
+    if not os.path.exists(path_to_save):
+        os.makedirs(path_to_save)
+    sitk.WriteImage(hippocampus_list[0], os.path.join(path_to_save, 'Hippocampus_label.nii'), True)
+    sitk.WriteImage(white_matter_list[0],  os.path.join(path_to_save, 'White_matter_label.nii'), True)
+    sitk.WriteImage(grey_matter_list[0],  os.path.join(path_to_save, 'Grey_matter_label.nii'), True)
+    sitk.WriteImage(amygdala_list[0],  os.path.join(path_to_save, 'Amygdala_label.nii'), True)
+    sitk.WriteImage(thalamus_list[0],  os.path.join(path_to_save, 'Thalamus_label.nii'), True)
+
+    #Save an image resampled to show segmentation
+    sitk.WriteImage(gt_label_list[0], os.path.join(path_to_save, 'Train_image_1_resampled.nii'), True)
+
     # sum them up and divide by their number of images to make a probability map
     white_matter_map = 0
     grey_matter_map = 0
@@ -123,11 +137,11 @@ def load_atlas_custom_images(wdpath):
     sitk.WriteImage(thalamus_map,  os.path.join(path_to_save, 'thalamus_map_no_threshold.nii'), True)
 
     #Threhold the 5 different maps to get a binary map
-    white_matter_map = sitk.BinaryThreshold(white_matter_map, 0.5, 5, 1, 0)
-    grey_matter_map = sitk.BinaryThreshold(grey_matter_map, 1, 5, 2, 0)
-    hippocampus_map = sitk.BinaryThreshold(hippocampus_map, 1, 5, 3, 0)
-    amygdala_map = sitk.BinaryThreshold(amygdala_map, 1, 5, 4, 0)
-    thalamus_map = sitk.BinaryThreshold(thalamus_map, 1, 5, 5, 0)
+    white_matter_map = sitk.BinaryThreshold(white_matter_map, 0.3, 1, 1, 0)
+    grey_matter_map = sitk.BinaryThreshold(grey_matter_map, 0.6, 2, 2, 0)
+    hippocampus_map = sitk.BinaryThreshold(hippocampus_map, 0.9, 3, 3, 0)
+    amygdala_map = sitk.BinaryThreshold(amygdala_map, 1.2, 4, 4, 0)
+    thalamus_map = sitk.BinaryThreshold(thalamus_map, 1.5, 5, 5, 0)
 
     #Save the images
     path_to_save = '../bin/custom_atlas_result/'
@@ -163,6 +177,8 @@ def load_atlas_custom_images(wdpath):
 
         test_resample_img.append(resample_img)
 
+    sitk.WriteImage(test_resample_img[0],  os.path.join(path_to_save, 'Test_data_1_resampled.nii'), True)
+
     # Save the first test patient labels
     # path_to_save = '../bin/temp_test_result/'
     # if not os.path.exists(path_to_save):
@@ -179,7 +195,7 @@ def load_atlas_custom_images(wdpath):
         os.makedirs(path_to_save)
     for i in range(0, 5):
         evaluator = eval_.Evaluator(eval_.ConsoleEvaluatorWriter(5))
-        evaluator.metrics = [metric.DiceCoefficient()]
+        evaluator.metrics = [metric.DiceCoefficient(), metric.HausdorffDistance()]
         evaluator.add_writer(eval_.CSVEvaluatorWriter(os.path.join(path_to_save,
                                                                    'DiceResults_' + label_list[i] + '.csv')))
         evaluator.add_label(i+1, label_list[i])
@@ -220,7 +236,7 @@ class FeatureExtractor:
         """
         self.img = img
         self.training = kwargs.get('training', True)
-        self.coordinates_feature = kwargs.get('coordinates_feature', False)
+        self.coordinates_feature = kwargs.get('coordinates_feature', True)
         self.intensity_feature = kwargs.get('intensity_feature', True)
         self.gradient_intensity_feature = kwargs.get('gradient_intensity_feature', True)
 
