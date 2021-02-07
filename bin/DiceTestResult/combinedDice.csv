@@ -1,0 +1,2238 @@
+﻿ID;LABEL;DICE,ID;LABEL;DICE;HAUSDORFF;;;;Dice;Hausdorff,ID;LABEL;DICE;HDRFDST
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+Patient 0;Amygdala;0.6261032361594009,,
+Patient 1;Amygdala;0.6641221374045801,,
+Patient 2;Amygdala;0.7719524793388429,,
+Patient 3;Amygdala;0.7506337558372248,,
+Patient 4;Amygdala;0.6372584761210354,,
+Patient 5;Amygdala;0.7472047294692199,,
+Patient 6;Amygdala;0.660024906600249,,
+Patient 7;Amygdala;0.7554973821989529,,
+Patient 8;Amygdala;0.7440734132041805,,
+Patient 9;Amygdala;0.7483176312247645,,
+Patient 0;Grey Matter;0.43956385827633926,,
+Patient 1;Grey Matter;0.4476036308260489,,
+Patient 2;Grey Matter;0.4249795525840817,,
+Patient 3;Grey Matter;0.44972463031444837,,
+Patient 4;Grey Matter;0.4210387184322295,,
+Patient 5;Grey Matter;0.459257387063025,,
+Patient 6;Grey Matter;0.3922027070140554,,
+Patient 7;Grey Matter;0.4617380884926665,,
+Patient 8;Grey Matter;0.46840510020078524,,
+Patient 9;Grey Matter;0.4385580343353626,,
+Patient 0;Hippocampus;0.6402553904123928,,
+Patient 1;Hippocampus;0.7369044680325846,,
+Patient 2;Hippocampus;0.6288589548718486,,
+Patient 3;Hippocampus;0.7477519621601955,,
+Patient 4;Hippocampus;0.7142707679430843,,
+Patient 5;Hippocampus;0.7006705507310103,,
+Patient 6;Hippocampus;0.7250297265160524,,
+Patient 7;Hippocampus;0.7488946015424165,,
+Patient 8;Hippocampus;0.7188940092165899,,
+Patient 9;Hippocampus;0.7287603560953018,,
+Patient 0;Thalamus;0.7965408495121711,,
+Patient 1;Thalamus;0.8458315272359486,,
+Patient 2;Thalamus;0.821070400158872,,
+Patient 3;Thalamus;0.8317916607371567,,
+Patient 4;Thalamus;0.8137335725716502,,
+Patient 5;Thalamus;0.7878543123248947,,
+Patient 6;Thalamus;0.8350209033131147,,
+Patient 7;Thalamus;0.8356464572680788,,
+Patient 8;Thalamus;0.8644825547013602,,
+Patient 9;Thalamus;0.8064523930445718,,
+Patient 0;White Matter;0.6882726208763075,,
+Patient 1;White Matter;0.6967965604935737,,
+Patient 2;White Matter;0.6780268201521321,,
+Patient 3;White Matter;0.6845206358081123,,
+Patient 4;White Matter;0.6740456368890998,,
+Patient 5;White Matter;0.693006725524766,,
+Patient 6;White Matter;0.6750936217846973,,
+Patient 7;White Matter;0.701198942678577,,
+Patient 8;White Matter;0.7232376387690409,,
+Patient 9;White Matter;0.6808827104187074,,
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
+,746872235.0,
+,90379024.0,
+,445093191.0,
+,17453697.0,
+,90242172.0,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,Patient 0;Amygdala;0.6339612032611751;4.123105625617661
+,,Patient 1;Amygdala;0.6734863146253801;5.385164807134504
+,,Patient 2;Amygdala;0.7815718157181571;3.1622776601683795
+,,Patient 3;Amygdala;0.7684756696115552;3.1622776601683795
+,,Patient 4;Amygdala;0.6410680228862047;5.385164807134504
+,,Patient 5;Amygdala;0.762033167048672;3.1622776601683795
+,,Patient 6;Amygdala;0.6540568745108271;4.358898943540674
+,,Patient 7;Amygdala;0.7691039032435404;20.024984394500787
+,,Patient 8;Amygdala;0.7572841486233627;3.605551275463989
+,,Patient 9;Amygdala;0.7545140222819823;5.0990195135927845
+,,Patient 0;Grey Matter;0.5411599625818522;10.63014581273465
+,,Patient 1;Grey Matter;0.5657893763381674;14.352700094407323
+,,Patient 2;Grey Matter;0.5606883946950061;12.569805089976535
+,,Patient 3;Grey Matter;0.5787641553879173;9.219544457292887
+,,Patient 4;Grey Matter;0.532615803440912;14.798648586948742
+,,Patient 5;Grey Matter;0.5630771916031838;11.489125293076057
+,,Patient 6;Grey Matter;0.5283973915873938;18.81488772222678
+,,Patient 7;Grey Matter;0.5721817263902048;12.083045973594572
+,,Patient 8;Grey Matter;0.560307535575729;13.038404810405298
+,,Patient 9;Grey Matter;0.5431759599453581;12.041594578792296
+,,Patient 0;Hippocampus;0.6428642170941864;5.0
+,,Patient 1;Hippocampus;0.741296096715243;5.385164807134504
+,,Patient 2;Hippocampus;0.6310934787999009;5.385164807134504
+,,Patient 3;Hippocampus;0.7420418204182042;5.0
+,,Patient 4;Hippocampus;0.7023067023067023;14.560219778561036
+,,Patient 5;Hippocampus;0.6854771784232365;7.0710678118654755
+,,Patient 6;Hippocampus;0.7274094969440527;5.0
+,,Patient 7;Hippocampus;0.7430853135956369;4.69041575982343
+,,Patient 8;Hippocampus;0.7178890182382616;4.358898943540674
+,,Patient 9;Hippocampus;0.7227447731370924;18.0
+,,Patient 0;Thalamus;0.8174866240375832;52.92447448959697
+,,Patient 1;Thalamus;0.8713728886964054;5.477225575051661
+,,Patient 2;Thalamus;0.8541737917971114;5.385164807134504
+,,Patient 3;Thalamus;0.8521146180651308;6.48074069840786
+,,Patient 4;Thalamus;0.8275295747902178;5.477225575051661
+,,Patient 5;Thalamus;0.8135275531516093;5.0
+,,Patient 6;Thalamus;0.8600797790733353;6.164414002968976
+,,Patient 7;Thalamus;0.8599118488542928;5.0
+,,Patient 8;Thalamus;0.8870556472176391;4.358898943540674
+,,Patient 9;Thalamus;0.8247005834783498;5.477225575051661
+,,Patient 0;White Matter;0.6869207573842787;10.488088481701515
+,,Patient 1;White Matter;0.7011334026839977;12.206555615733702
+,,Patient 2;White Matter;0.6640562318878749;11.357816691600547
+,,Patient 3;White Matter;0.6930958196074626;10.63014581273465
+,,Patient 4;White Matter;0.7010361135032986;11.357816691600547
+,,Patient 5;White Matter;0.7038946183067373;10.723805294763608
+,,Patient 6;White Matter;0.6626134616921363;19.849433241279208
+,,Patient 7;White Matter;0.7167309574377184;10.04987562112089
+,,Patient 8;White Matter;0.727663824504124;11.180339887498949
